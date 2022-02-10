@@ -1,0 +1,1 @@
+['pragma solidity ^0.4.24;\n', '\n', 'import "./MintableToken.sol";\n', 'import "./CappedToken.sol";\n', '\n', 'contract CRC is CappedToken {\n', '    string public name = "Creditcoin";\n', '    string public symbol = "CRC";\n', '    uint8 public decimals = 18;\n', '\n', '    constructor(uint256 _cap) public CappedToken(_cap) {}\n', '}']

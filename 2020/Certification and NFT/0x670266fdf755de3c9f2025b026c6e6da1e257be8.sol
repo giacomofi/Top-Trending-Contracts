@@ -1,0 +1,1 @@
+['pragma solidity >=0.4.22 <0.6.0;\n', 'contract ZippieREG {\n', '    /// Delegate your vote to the voter $(to).\n', '    function publish(uint256 stream, bytes memory cid) public {\n', '        emit NewEvent(msg.sender, stream, cid);\n', '    }\n', '\n', '    event NewEvent(address indexed publisher, uint256 indexed stream, bytes cid);\n', '}']

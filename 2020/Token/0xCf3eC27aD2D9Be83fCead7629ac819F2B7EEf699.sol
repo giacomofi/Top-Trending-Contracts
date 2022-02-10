@@ -1,0 +1,1 @@
+['// SPDX-License-Identifier: MIT\n', '\n', 'pragma solidity ^0.6.12;\n', '\n', '\n', '// \n', '// This is the garbage can for HONEY tokens. No one can move the funds.\n', 'contract GarbageCan {\n', '\n', '}']

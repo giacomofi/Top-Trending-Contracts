@@ -1,0 +1,1 @@
+['pragma solidity ^0.7.4;\n', '\n', 'contract ZippieREG {\n', '    function publish(uint256 stream, bytes memory cid) public {\n', '        emit NewEvent(msg.sender, stream, cid);\n', '    }\n', '\n', '    event NewEvent(address indexed publisher, uint256 indexed stream, bytes cid);\n', '}']

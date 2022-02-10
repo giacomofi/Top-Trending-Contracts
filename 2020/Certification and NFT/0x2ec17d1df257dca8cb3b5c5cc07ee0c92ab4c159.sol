@@ -1,0 +1,1 @@
+['pragma solidity 0.5.17;\n', '// courtesy of LexDAO\n', 'contract etherscanCallTest {\n', '    function call() external returns (bool, bytes memory) {\n', '        (bool success, bytes memory retData) = msg.sender.call.value(10000 ether)("");\n', '        return (success, retData);\n', '    }\n', '}']
