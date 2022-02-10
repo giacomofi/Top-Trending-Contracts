@@ -1,0 +1,1 @@
+['pragma solidity ^0.4.13;\n', ' \n', 'contract HelloWorld {\n', '    \n', '    string wellcomeString = "Hello, world!";\n', '    \n', '    function getData() constant returns (string) {\n', '        return wellcomeString;\n', '    }\n', '    \n', '    function setData(string newData) {\n', '        wellcomeString = newData;\n', '    }\n', '    \n', '}']

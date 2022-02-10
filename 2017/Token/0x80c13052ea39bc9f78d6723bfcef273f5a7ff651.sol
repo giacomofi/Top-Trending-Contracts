@@ -1,0 +1,1 @@
+['pragma solidity ^0.4.18;\n', '\n', 'contract test {\n', '  uint256 public totalSupply;\n', '  function test(uint256 _totalSupply) {\n', '    totalSupply = _totalSupply;\n', '  }\n', '  function add(uint256 _add) {\n', '    if (_add > 0) {\n', '      totalSupply += _add;\n', '    } else {\n', '      totalSupply++;\n', '    }\n', '  }\n', '}']
