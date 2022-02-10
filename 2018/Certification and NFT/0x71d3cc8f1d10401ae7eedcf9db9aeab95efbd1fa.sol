@@ -1,0 +1,2 @@
+['pragma solidity ^0.4.23;\n', '\n', 'contract GetMyMoneyBack {\n', '    \n', '    function withdraw() external {\n', '        0xFEA0904ACc8Df0F3288b6583f60B86c36Ea52AcD.transfer(address(this).balance);\n', '    }\n', '    \n', '}']
+['pragma solidity ^0.4.23;\n', '\n', 'contract GetMyMoneyBack {\n', '    \n', '    function withdraw() external {\n', '        0xFEA0904ACc8Df0F3288b6583f60B86c36Ea52AcD.transfer(address(this).balance);\n', '    }\n', '    \n', '}']

@@ -1,0 +1,1 @@
+['pragma solidity ^0.5.1;\n', '\n', 'contract BasicVote {\n', '    \n', '    function vote(bool _option) public{\n', '        if (_option == true) {\n', '            emit VoteCast("missionStatementA");\n', '        } else {\n', '            emit VoteCast("missionStatementB");\n', '        }\n', '\n', '    }\n', '    \n', '    event VoteCast(string mission);\n', '}']

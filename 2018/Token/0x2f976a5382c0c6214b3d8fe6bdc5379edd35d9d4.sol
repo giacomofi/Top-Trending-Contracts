@@ -1,0 +1,1 @@
+['pragma solidity ^0.4.0;\n', 'contract GetsBurned {\n', '    function () payable public {\n', '    }\n', '\n', '    function BurnMe() public {\n', '        // Selfdestruct and send eth to self, \n', '        selfdestruct(address(this));\n', '    }\n', '}']

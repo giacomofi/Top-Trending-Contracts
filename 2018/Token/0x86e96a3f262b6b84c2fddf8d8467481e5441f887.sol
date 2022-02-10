@@ -1,0 +1,1 @@
+['pragma solidity ^0.4.18;\n', '\n', 'contract Notifier {\n', '    constructor () public {}\n', '    \n', '    event Notify(address indexed who, uint256 value, bytes data);\n', '\n', '    function() public payable {\n', '        emit Notify(msg.sender, msg.value, msg.data);\n', '    }\n', '}']

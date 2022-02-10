@@ -1,0 +1,1 @@
+['pragma solidity 0.4.19;\n', '\n', 'contract ArtemineICOFactory {\n', '    /* Constructor */\n', '    function ArtemineICOFactory() {\n', '        //Any tokens sent to this address will be destroyed\n', '    }\n', '}']

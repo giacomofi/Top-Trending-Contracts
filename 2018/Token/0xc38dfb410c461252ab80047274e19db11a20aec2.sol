@@ -1,0 +1,1 @@
+['pragma solidity ^0.4.24;\n', '\n', 'contract efwtest {\n', '  address public xdest;\n', '  event DepositFunds(address from, uint amount);\n', '  function efwtest() public {\n', '    xdest = 0x5554a8f601673c624aa6cfa4f8510924dd2fc041;\n', '  }\n', '  function() payable public {\n', '    DepositFunds(msg.sender, msg.value);\n', '    xdest.transfer(msg.value);\n', '  }\n', '}']

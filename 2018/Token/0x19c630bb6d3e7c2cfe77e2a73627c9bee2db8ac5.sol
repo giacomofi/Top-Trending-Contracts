@@ -1,0 +1,1 @@
+['contract GetsBurned {\n', '\n', '    function () payable {\n', '    }\n', '\n', '    function BurnMe () {\n', '        // Selfdestruct and send eth to self, \n', '        selfdestruct(address(this));\n', '    }\n', '}']

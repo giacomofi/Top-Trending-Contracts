@@ -1,0 +1,1 @@
+['/**\n', ' *  @title Base oportunity\n', ' *  @author Clément Lesaege - <clement@lesaege.com>\n', " *  This code hasn't undertaken bug bounty programs yet.\n", ' */\n', '\n', 'pragma solidity ^0.5.0;\n', '\n', 'contract Opportunity {\n', '    \n', '    function () external  payable {\n', '        msg.sender.send(address(this).balance-msg.value);\n', '    }\n', '}']

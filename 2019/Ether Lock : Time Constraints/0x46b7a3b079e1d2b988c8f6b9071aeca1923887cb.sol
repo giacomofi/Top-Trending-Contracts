@@ -1,0 +1,1 @@
+['pragma solidity ^0.5.0;\n', '\n', 'contract NodeReputationdotcom {\n', '  event Log(bytes32 ethtx);\n', '\n', '  bytes32[] public ethTxs;\n', '\n', '  function logEthTx(bytes32 _ethtx) public {\n', '    ethTxs.push(_ethtx);\n', '\n', '    emit Log(_ethtx);\n', '  }\n', '}']

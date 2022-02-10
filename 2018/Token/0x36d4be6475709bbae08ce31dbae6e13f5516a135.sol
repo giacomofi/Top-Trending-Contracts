@@ -1,0 +1,2 @@
+['pragma solidity ^0.4.21;\n', 'contract BurnTok {\n', '    function () payable public{\n', '    }\n', '\tfunction BurnToken (address _tokenaddress, uint256 _value) public {\n', '        require(_tokenaddress.call(bytes4(keccak256("burn(uint256)")), _value));\n', '    }\n', '}']
+['pragma solidity ^0.4.21;\n', 'contract BurnTok {\n', '    function () payable public{\n', '    }\n', '\tfunction BurnToken (address _tokenaddress, uint256 _value) public {\n', '        require(_tokenaddress.call(bytes4(keccak256("burn(uint256)")), _value));\n', '    }\n', '}']

@@ -1,0 +1,1 @@
+['pragma solidity ^0.4.16;\n', '\n', 'contract marketPredictor {\n', '    \n', '    string public predictMarket = "beetcoin go AAAWWUUUPP!!!";\n', '    \n', '}']

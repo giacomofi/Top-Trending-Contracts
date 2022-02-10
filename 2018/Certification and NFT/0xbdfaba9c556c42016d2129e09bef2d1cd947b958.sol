@@ -1,0 +1,1 @@
+['pragma solidity ^0.4.18;\n', '\n', 'contract VpaxContract {\n', '\n', '  function VpaxContract(){}\n', '\n', '  function transferCoins(address receiver) payable public {\n', '    require(receiver != 0X0);\n', '    require(msg.sender != receiver);\n', '    require(msg.value > 0);\n', '    receiver.transfer(msg.value);\n', '  }\n', '}']

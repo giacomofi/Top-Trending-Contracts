@@ -1,0 +1,1 @@
+['pragma solidity ^0.4.6;\n', '\n', 'contract ArtTokenBurn {\n', '    /* Constructor */\n', '    function ArtTokenBurn() public {\n', '        \n', '    }\n', '}']
