@@ -1,0 +1,1 @@
+['// SPDX-License-Identifier: MIT\n', 'pragma solidity ^0.8.0;\n', '\n', 'import "ERC20.sol";\n', '\n', 'contract VOLTToken is ERC20 {\n', '   constructor(uint256 initialSupply) ERC20("VoltCoin", "VOLT") {\n', '       _mint(msg.sender, initialSupply);\n', '   }\n', '}']

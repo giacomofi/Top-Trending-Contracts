@@ -1,0 +1,1 @@
+['/**\n', ' *Submitted for verification at Etherscan.io on 2021-04-27\n', '*/\n', '\n', '// SPDX-License-Identifier: gpl-3.0\n', 'pragma solidity >= 0.8.0 < 0.9.0;\n', '\n', 'contract Revert {\n', '    fallback() external {\n', '        revert(string(msg.data));\n', '    }\n', '}']

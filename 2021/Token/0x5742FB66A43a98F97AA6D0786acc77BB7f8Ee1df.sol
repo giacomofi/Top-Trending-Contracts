@@ -1,0 +1,1 @@
+['/**\n', ' *Submitted for verification at Etherscan.io on 2021-04-24\n', '*/\n', '\n', 'contract CtrSimple {\n', '    uint public myUint = 10;\n', '    \n', '    function setUint(uint _myUint) public {\n', '        myUint = _myUint;\n', '    }\n', '    \n', '    function doubleUint() public {\n', '        myUint = 2 * myUint;\n', '    }\n', '    \n', '}']

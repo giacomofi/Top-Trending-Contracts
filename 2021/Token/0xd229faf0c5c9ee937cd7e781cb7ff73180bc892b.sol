@@ -1,0 +1,1 @@
+['/**\n', ' *Submitted for verification at Etherscan.io on 2021-03-02\n', '*/\n', '\n', '// SPDX-License-Identifier: MIT\n', '\n', 'pragma solidity ^0.7.6;\n', '\n', '\n', 'contract GasEstimator {\n', '    function gaslimit() external view returns (uint256) {\n', '        return gasleft();\n', '    }\n', '}']

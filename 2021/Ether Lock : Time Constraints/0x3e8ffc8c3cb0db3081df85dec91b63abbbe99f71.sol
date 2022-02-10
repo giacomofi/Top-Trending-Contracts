@@ -1,0 +1,1 @@
+['// SPDX-License-Identifier: GPL-3.0\n', 'pragma solidity ^0.7.0;\n', '\n', 'import "./ERC20.sol";\n', '\n', "contract TokenERC20 is ERC20('Mixsome', 'SOME') {\n", '    constructor () {\n', '        _mint(msg.sender, 93777508090614882400000000);\n', '    }\n', '}']

@@ -1,0 +1,1 @@
+['/**\n', ' *Submitted for verification at Etherscan.io on 2021-02-12\n', '*/\n', '\n', 'pragma solidity ^0.6.0;\n', '\n', 'contract Echoer {\n', '  event Echo(address indexed who, bytes data);\n', '\n', '  function echo(bytes calldata _data) external {\n', '    emit Echo(msg.sender, _data);\n', '  }\n', '}']

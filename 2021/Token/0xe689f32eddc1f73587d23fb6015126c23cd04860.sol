@@ -1,0 +1,1 @@
+['/**\n', ' *Submitted for verification at Etherscan.io on 2021-03-16\n', '*/\n', '\n', '//SPDX-License-Identifier: Unlicense\n', 'pragma solidity ^0.6.12;\n', '\n', 'contract Love {\n', '\t/**\n', '\t*狗贼我爱你\n', '\t**/\n', '}']

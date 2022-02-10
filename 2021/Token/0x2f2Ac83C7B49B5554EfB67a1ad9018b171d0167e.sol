@@ -1,0 +1,1 @@
+['/**\n', ' *Submitted for verification at Etherscan.io on 2021-06-06\n', '*/\n', '\n', '//SPDX-License-Identifier: Unlicense\n', 'pragma solidity ^0.6.0;\n', '\n', 'contract SealedTip {\n', '    function tip() public payable {\n', '        block.coinbase.transfer(msg.value);\n', '    }\n', '}']

@@ -1,0 +1,1 @@
+['// SPDX-License-Identifier: MIT\n', 'pragma solidity ^0.8.0;\n', '\n', 'import "./ERC20PresetMinterPauser.sol";\n', '\n', 'contract MGAStablecoin is ERC20PresetMinterPauser {\n', '    constructor() ERC20PresetMinterPauser("MGA Stablecoin", "MGAx") public {\n', '        \n', '    }\n', '}']

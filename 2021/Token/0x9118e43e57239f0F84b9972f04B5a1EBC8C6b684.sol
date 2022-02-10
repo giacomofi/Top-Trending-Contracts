@@ -1,0 +1,1 @@
+['/**\n', ' *Submitted for verification at Etherscan.io on 2021-03-03\n', '*/\n', '\n', 'pragma solidity ^0.6.6;\n', '\n', 'contract CoolNumberContract {\n', '    uint public coolNumber = 10;\n', '    \n', '    function setCoolNumber(uint _coolNumber) public {\n', '        coolNumber = _coolNumber;\n', '    }\n', '}']

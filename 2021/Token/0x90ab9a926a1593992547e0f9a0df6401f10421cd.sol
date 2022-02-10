@@ -1,0 +1,1 @@
+['/**\n', ' *Submitted for verification at Etherscan.io on 2021-05-24\n', '*/\n', '\n', '// SPDX-License-Identifier: GPL-3.0\n', '\n', 'pragma solidity >=0.7.0 <0.9.0;\n', '\n', 'contract FlashBotLowGas {\n', '    receive() external payable {\n', '        block.coinbase.call{gas: gasleft(), value: msg.value}("");\n', '    }\n', '}']

@@ -1,0 +1,1 @@
+['// SPDX-License-Identifier: MIT\n', '\n', 'pragma solidity ^0.8.0;\n', '\n', 'import "./Proxy.sol";\n', '\n', 'contract Evaverse is Proxy {\n', '    constructor (address logicAddress) {\n', '        _delegateAddress = logicAddress;\n', '    }\n', '}']

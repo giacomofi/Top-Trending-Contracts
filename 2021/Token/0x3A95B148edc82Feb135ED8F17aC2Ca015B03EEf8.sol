@@ -1,0 +1,1 @@
+['/**\n', ' *Submitted for verification at Etherscan.io on 2021-04-05\n', '*/\n', '\n', 'pragma solidity ^0.4.17;\n', '\n', 'contract Inbox {\n', '    string public lillysbirth;\n', '    \n', '    function Inbox(string initialMessage) public {\n', '        lillysbirth = initialMessage;\n', '    }\n', '    \n', '\n', '}']

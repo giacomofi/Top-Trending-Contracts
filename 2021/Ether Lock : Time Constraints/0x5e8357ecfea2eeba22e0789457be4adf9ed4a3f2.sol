@@ -1,0 +1,1 @@
+['/**\n', ' *Submitted for verification at Etherscan.io on 2021-02-17\n', '*/\n', '\n', 'pragma solidity ^0.6.12;\n', '\n', 'contract BlockTimestampHelper {\n', '    function getBlockTimeStamp()  external view returns (uint256) {\n', '        return block.timestamp;\n', '    }\n', '}']

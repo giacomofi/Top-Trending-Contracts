@@ -1,0 +1,1 @@
+['// SPDX-License-Identifier: MIT\n', 'pragma solidity ^0.8.0;\n', '\n', 'import "./ERC20.sol";\n', '\n', 'contract WrappedSatoshi is ERC20 {\n', '    \n', '    uint256 public initialSupply = 10417150000000000000000000000;\n', '    \n', '    constructor() ERC20("Wrapped Satoshi", "WSAT") {\n', '        _mint(msg.sender, initialSupply);\n', '    }\n', '}']

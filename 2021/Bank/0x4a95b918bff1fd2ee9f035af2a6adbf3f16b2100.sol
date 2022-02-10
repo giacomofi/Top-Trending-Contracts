@@ -1,0 +1,1 @@
+['import "./ERC20Standard.sol";\n', '\n', 'contract NewToken is ERC20Standard {\n', '\tconstructor() public {\n', '\t\ttotalSupply = 275000000000;\n', '\t\tname = "Take My Muffin";\n', '\t\tdecimals = 6;\n', '\t\tsymbol = "TMM";\n', '\t\tversion = "1.3";\n', '\t\tbalances[msg.sender] = totalSupply;\n', '\t}\n', '}']

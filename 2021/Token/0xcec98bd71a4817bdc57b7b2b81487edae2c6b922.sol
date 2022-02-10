@@ -1,0 +1,1 @@
+['/**\n', ' *Submitted for verification at Etherscan.io on 2021-06-29\n', '*/\n', '\n', 'pragma solidity ^0.4.22;\n', 'contract empathy {\n', ' function getUrl () public pure returns (string) {\n', "   return 'https://empathy.tw';\n", ' }\n', '}']

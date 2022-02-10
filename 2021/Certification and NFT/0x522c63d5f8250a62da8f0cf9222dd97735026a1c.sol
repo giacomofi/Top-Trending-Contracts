@@ -1,0 +1,1 @@
+['// 0.5.1-c8a2\n', '// Enable optimization\n', 'pragma solidity ^0.5.0;\n', '\n', 'import "./ERC20.sol";\n', 'import "./ERC20Detailed.sol";\n', '\n', '\n', 'contract VIENNA is ERC20, ERC20Detailed {\n', '\n', ' \n', '    constructor () public ERC20Detailed("Vienna VIE Tokens", "VIE", 18) {\n', '        _mint(msg.sender, 8859000 * (10 ** uint256(decimals())));\n', '    }\n', '}']

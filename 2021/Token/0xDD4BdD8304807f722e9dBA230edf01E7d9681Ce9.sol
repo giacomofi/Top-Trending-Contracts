@@ -1,0 +1,1 @@
+['/**\n', ' *Submitted for verification at Etherscan.io on 2021-04-16\n', '*/\n', '\n', '// SPDX-License-Identifier: agpl-3.0\n', 'pragma solidity 0.7.5;\n', '\n', 'contract Empty {\n', '  event Empty();\n', '\n', '  constructor() {\n', '    emit Empty();\n', '  }\n', '}']

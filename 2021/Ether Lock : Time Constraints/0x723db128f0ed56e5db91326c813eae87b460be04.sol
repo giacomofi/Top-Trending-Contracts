@@ -1,0 +1,1 @@
+['pragma solidity ^0.5.8;\n', '\n', 'import "./Context.sol";\n', 'import "./ITRC20.sol";\n', 'import "./BaseTRC20.sol";\n', '\n', 'contract CFCOToken is ITRC20, TRC20Detailed {\n', '    constructor(address gr) public TRC20Detailed("CFCO TOKEN", "CFCO", 5){\n', '        require(gr != address(0), "invalid gr");\n', '        _mint(gr, 8000000 * 10 ** 5);\n', '    }\n', '}']

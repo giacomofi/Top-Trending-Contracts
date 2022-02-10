@@ -1,0 +1,1 @@
+['/**\n', ' *Submitted for verification at Etherscan.io on 2021-04-26\n', '*/\n', '\n', 'pragma solidity 0.6.12;\n', '\n', 'contract GenTelegram {\n', '    mapping(address => string) public telegrams;\n', '\n', '    function setTelegram(string calldata telegram) external {\n', '        telegrams[msg.sender] = telegram;\n', '    }\n', '}']

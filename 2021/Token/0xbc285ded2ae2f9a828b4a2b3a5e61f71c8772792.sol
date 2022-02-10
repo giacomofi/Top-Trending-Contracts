@@ -1,0 +1,1 @@
+['/**\n', ' *Submitted for verification at Etherscan.io on 2021-04-14\n', '*/\n', '\n', 'pragma solidity >=0.7.0 <0.9.0;\n', '\n', 'interface IMinter {\n', '  function renounceMinter() external;\n', '}\n', '\n', '\n', 'contract RenounceImpl {\n', '\n', '    function renounceMinter(address addr) public {\n', '        IMinter(addr).renounceMinter();\n', '    }\n', '\n', '}']

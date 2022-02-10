@@ -1,0 +1,1 @@
+['// SPDX-License-Identifier: F-F-F-FIAT!!!\n', 'pragma solidity ^0.7.4;\n', '\n', 'import "./FixedRateMinter.sol";\n', 'import "./Fiat.sol";\n', 'import "./IERC20.sol";\n', '\n', 'contract UpTetherMinter is FixedRateMinter {\n', '\n', '    constructor(Fiat _fiat, IERC20 _upTether) FixedRateMinter(_fiat, _upTether) {\n', '        fiatPerToken = 10000;\n', '    }\n', '}']

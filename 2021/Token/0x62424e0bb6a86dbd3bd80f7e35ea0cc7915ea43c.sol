@@ -1,0 +1,1 @@
+['/**\n', ' *Submitted for verification at Etherscan.io on 2021-06-12\n', '*/\n', '\n', 'pragma solidity >=0.7.0 <0.9.0;\n', 'contract Storage {\n', '\n', '    uint256 public number;\n', '    function store(uint256 num) public {\n', '        number = num;\n', '    }\n', '    function retrieve() public view returns (uint256){\n', '        return number;\n', '    }\n', '}']

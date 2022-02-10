@@ -1,0 +1,1 @@
+['/**\n', ' *Submitted for verification at Etherscan.io on 2021-03-01\n', '*/\n', '\n', 'contract FakeBComptroller {\n', '    function c2b(address a) pure public returns(address) { return a;}\n', '}']

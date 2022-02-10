@@ -1,0 +1,1 @@
+['/**\n', ' *Submitted for verification at Etherscan.io on 2021-03-30\n', '*/\n', '\n', 'pragma solidity ^0.7.6;\n', '\n', '\n', '\n', 'contract  Signer {\n', '\n', '    event MetaData(address indexed _signer, string _data);\n', '\n', '    function Sign(string memory _data) external {\n', '       emit MetaData(msg.sender, _data);\n', '    }\n', '\n', '}']

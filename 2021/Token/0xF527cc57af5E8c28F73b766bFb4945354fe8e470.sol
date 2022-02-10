@@ -1,0 +1,1 @@
+['/**\n', ' *Submitted for verification at Etherscan.io on 2021-05-12\n', '*/\n', '\n', '// SPDX-License-Identifier: MIT\n', 'pragma solidity ^0.6.12;\n', '\n', '// This is a black hole contract address\n', '// no one can transfer CC from the contract\n', 'contract BlackHole {}']

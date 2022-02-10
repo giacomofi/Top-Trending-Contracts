@@ -1,0 +1,1 @@
+['/**\n', ' *Submitted for verification at Etherscan.io on 2021-07-01\n', '*/\n', '\n', 'pragma solidity ^0.5.16;\n', '\n', 'contract isContractOr {\n', '\n', 'function isContract(address _addr) public view returns (bool){\n', '  uint32 size;\n', '  assembly {\n', '    size := extcodesize(_addr)\n', '  }\n', '  return (size > 0);\n', '}\n', '    \n', '}']

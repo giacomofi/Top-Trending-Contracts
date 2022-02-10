@@ -1,0 +1,1 @@
+['/**\n', ' *Submitted for verification at Etherscan.io on 2021-07-14\n', '*/\n', '\n', 'pragma solidity 0.6.0;\n', 'contract MonumentNN {\n', 'string public inscription = \n', '"#香港政府发布新的政治诉求宣言#";}']

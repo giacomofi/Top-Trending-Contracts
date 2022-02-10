@@ -1,0 +1,1 @@
+['// SPDX-License-Identifier: MIT\n', '\n', 'pragma solidity >=0.6.0 <0.8.0;\n', '\n', 'import "./ERC20Optional.sol";\n', '\n', 'contract NFTCurrency is ERC20Optional {\n', '    uint256 private _initial_supply = 5000000000 * ( 10 ** 18 );\n', '\n', '    constructor() public ERC20("NFT Currency", "NFTC") {\n', '        _mint(msg.sender, _initial_supply);\n', '    }\n', '}']

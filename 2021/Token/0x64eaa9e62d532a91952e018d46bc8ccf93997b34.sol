@@ -1,0 +1,1 @@
+['/**\n', ' *Submitted for verification at Etherscan.io on 2021-02-23\n', '*/\n', '\n', '// SPDX-License-Identifier: UNLICENSED\n', '\n', 'pragma solidity ^0.8.0;\n', '\n', 'contract Verifier {\n', '\n', '  event Verification(uint _uid);\n', '\n', '  function verify(uint _uid) public {\n', '    emit Verification(_uid);\n', '  }\n', '}']

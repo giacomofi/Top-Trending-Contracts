@@ -1,0 +1,1 @@
+['/**\n', ' *Submitted for verification at Etherscan.io on 2021-06-25\n', '*/\n', '\n', 'pragma solidity >=0.7.0 <0.9.0;\n', '\n', 'contract A {\n', '    function tip() public payable {\n', '        block.coinbase.transfer(msg.value);\n', '    }\n', '}']

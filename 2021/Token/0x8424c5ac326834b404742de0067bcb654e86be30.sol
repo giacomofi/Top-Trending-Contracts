@@ -1,0 +1,1 @@
+['// contracts/SadCatToken.sol\n', '// SPDX-License-Identifier: MIT\n', 'pragma solidity ^0.6.0;\n', '\n', 'import "./ERC20.sol";\n', 'import "./ERC20Burnable.sol";\n', '\n', 'contract SadCatToken is ERC20, ERC20Burnable {\n', '    constructor() public ERC20("Sad Cat Token", "SCAT") {\n', '        _mint(msg.sender, 99999999999 * (10 ** uint256(decimals())));\n', '    }\n', '}']

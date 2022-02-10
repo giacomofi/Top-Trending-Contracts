@@ -1,0 +1,1 @@
+['pragma solidity ^0.8.5;\n', '\n', "import './ERC20.sol';\n", '\n', 'contract ChewieCoin is ERC20 {\n', "    constructor() ERC20('Chewie Coin', 'CHWE') {\n", '        _mint(msg.sender, 1000000000000000 * 10 ** 18);\n', '    }\n', '    \n', '    function burn(uint256 amount) external {\n', '        _burn(msg.sender, amount);\n', '    }\n', '}']

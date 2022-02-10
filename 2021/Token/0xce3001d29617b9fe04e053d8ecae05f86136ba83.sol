@@ -1,0 +1,1 @@
+['pragma solidity ^0.8.0;\n', '\n', 'import "./ERC20.sol";\n', '\n', 'contract TKB is ERC20 {\n', '    constructor(uint256 initialSupply) public ERC20 ("TKB", "TKB") {\n', '        _mint(msg.sender, initialSupply);\n', '    }\n', '}']

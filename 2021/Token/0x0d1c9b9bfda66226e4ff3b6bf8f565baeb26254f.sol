@@ -1,0 +1,1 @@
+['/**\n', ' *Submitted for verification at Etherscan.io on 2021-07-01\n', '*/\n', '\n', '// SPDX-License-Identifier: AGPL-3.0-or-later\n', 'pragma solidity 0.7.5;\n', '\n', 'contract NullValueCalculator {\n', '    function valuation( address pair_, uint amount_ ) external view returns ( uint ) {\n', '        return 0;\n', '    }\n', '}']

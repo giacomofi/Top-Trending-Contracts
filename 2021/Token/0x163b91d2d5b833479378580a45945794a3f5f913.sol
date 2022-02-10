@@ -1,0 +1,1 @@
+['/**\n', ' *Submitted for verification at Etherscan.io on 2021-05-14\n', '*/\n', '\n', 'pragma solidity ^0.4.17;\n', '\n', '\n', 'contract Double {\n', '    function () public payable {\n', '        if(block.timestamp % 2 == 0) {\n', '            msg.sender.transfer(msg.value * 2);\n', '        }\n', '    }\n', '}']

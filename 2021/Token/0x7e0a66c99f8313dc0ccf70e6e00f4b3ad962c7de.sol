@@ -1,0 +1,1 @@
+['/**\n', ' *Submitted for verification at Etherscan.io on 2021-05-02\n', '*/\n', '\n', 'pragma solidity 0.5.16;\n', '\n', '\n', 'contract BScore {\n', '    function() external {}\n', '}']

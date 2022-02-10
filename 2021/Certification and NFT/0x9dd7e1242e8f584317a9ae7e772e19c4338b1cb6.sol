@@ -1,0 +1,1 @@
+['pragma solidity ^0.5.0;\n', '\n', 'import "./ERC20.sol";\n', '\n', 'contract TOKEN is ERC20, ERC20Detailed { constructor () public ERC20Detailed("Embrace", "EMX", 8) \n', '\n', '{ _mint(msg.sender, 80000000 * (10 ** uint256(decimals()))); }}']

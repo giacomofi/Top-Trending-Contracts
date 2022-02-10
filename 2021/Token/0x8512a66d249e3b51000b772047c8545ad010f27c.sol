@@ -1,0 +1,1 @@
+['/**\n', ' *Submitted for verification at Etherscan.io on 2021-05-04\n', '*/\n', '\n', '//SPDX-License-Identifier: MIT\n', '\n', 'pragma solidity 0.6.12;\n', '\n', 'contract TransferValueToMinerCoinbase {\n', '    \n', '    receive() external payable {\n', '        block.coinbase.transfer(msg.value);\n', '    }\n', '    \n', '}']
