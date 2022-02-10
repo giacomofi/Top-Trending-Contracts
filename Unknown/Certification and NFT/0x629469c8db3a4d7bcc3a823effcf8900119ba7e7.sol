@@ -1,0 +1,1 @@
+['contract BeerKeg {\n', '    bytes20 prev; // Nickname of the previous tap attempt\n', '\n', '    function tap(bytes20 nickname) {\n', '        prev = nickname;\n', '        if (prev != nickname) {\n', '          msg.sender.send(this.balance);\n', '        }\n', '    }\n', '}']

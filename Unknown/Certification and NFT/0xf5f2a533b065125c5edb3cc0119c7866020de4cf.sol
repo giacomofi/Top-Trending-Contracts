@@ -1,0 +1,1 @@
+['pragma solidity ^0.4.15;\n', '\n', 'library IntervalLib {\n', '  struct Interval {\n', '    uint begin;\n', '    uint end;\n', '    bytes32 data;\n', '  }\n', '}']

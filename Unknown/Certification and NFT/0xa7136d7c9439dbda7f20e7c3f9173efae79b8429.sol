@@ -1,0 +1,1 @@
+['pragma solidity >=0.4.10;\n', '\n', '// Dummy Receiver to satisfy Sales contract need for 3 receivers\n', 'contract DummyReceiver {\n', '\n', '    // callback from sale contract when the sale begins\n', '    function start() {\n', '    }\n', '\n', '    // callback from sale contract when sale ends\n', '    function end() {\n', '    }\n', '}']

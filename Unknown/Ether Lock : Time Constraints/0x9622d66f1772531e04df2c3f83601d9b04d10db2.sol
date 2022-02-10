@@ -1,0 +1,1 @@
+['pragma solidity ^0.4.11;\n', '\n', 'contract Test {\n', '    uint public test;\n', '    \n', '    function Test() {\n', '        test = 1;\n', '    }\n', '}']

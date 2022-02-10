@@ -1,0 +1,1 @@
+['contract SimpleStorage {\n', '    event valueChanged(string oldValue, string newValue);\n', '\n', '    string _value;\n', '\n', '    function setValue(string value) {\n', '        valueChanged(_value, value);\n', '        _value = value;\n', '    }\n', '\n', '    function getValue() constant returns (string) {\n', '        return _value;\n', '    }\n', '}']
